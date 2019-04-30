@@ -1,0 +1,8 @@
+server:
+  port: ${server-port:8001}
+
+spring:
+  profiles:
+    active: @profileActive@
+  main:
+    allow-bean-definition-overriding: true
